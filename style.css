@@ -167,6 +167,21 @@ footer p {
         text-align: center;
         margin: 20px;
     }
+    .contact{
+        align-content: center;
+        h2{
+            text-align: center;
+            border: none;
+            width: 100%;
+        }
+        p{
+            border: none;
+            width: 100%;
+            align-content: center;
+            text-align: center;
+            display: inline;
+        }
+    }
     .skills{
         border: none;
         margin-left: 200px;
@@ -179,7 +194,8 @@ footer p {
             border-radius: 2px;
             margin: 10px;
             padding: 10px;
-            
+            margin-right: 800px;
+
         }
     }
 }

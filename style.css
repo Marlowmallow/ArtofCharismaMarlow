@@ -49,9 +49,13 @@ body{
 }
 
 .demoreel{
-    text-align: center;
+    text-align: center;  
     h1{
         font-size: 2em;
+        background-color: rgb(131, 155, 147);
+        border: solid 5px rgb(131, 155, 147);
+        border-radius: 10px;
+        border-width: 300px;
     }
     iframe{
         width:fit-content;
@@ -136,6 +140,22 @@ footer p {
         background-color: rgb(131, 155, 147);
         border: solid 5px rgb(131, 155, 147);
         border-radius: 10px;
+        margin: 20px;
+    }
+}
+
+.me {
+    h1{
+        font-size: 2em;
+        text-align: center;
+        border: none;
+        width: 100%;
+        
+    }
+    p{
+        font-size: 1em;
+        border: none;
+        text-align: center;
         margin: 20px;
     }
 }

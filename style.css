@@ -168,6 +168,18 @@ footer p {
         margin: 20px;
     }
     .skills{
-        
+        border: none;
+        margin-left: 200px;
+        margin-right: 200px;
+
+        li{
+            line-height: 2.0;
+            border: rgb(207, 224, 218);
+            background-color: rgb(207, 224, 218);
+            border-radius: 2px;
+            margin: 10px;
+            padding: 10px;
+            
+        }
     }
 }

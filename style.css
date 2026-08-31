@@ -55,7 +55,8 @@ body{
         background-color: rgb(131, 155, 147);
         border: solid 5px rgb(131, 155, 147);
         border-radius: 10px;
-        border-width: 300px;
+        margin-left: 600px;
+        margin-right: 600px;
     }
     iframe{
         width:fit-content;

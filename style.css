@@ -2,6 +2,7 @@
 body{
     background-color:rgb(90, 117, 108);
     font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
 }
 
 #Header{
@@ -28,7 +29,7 @@ body{
     line-height: 1.8;
     a:link {
         text-decoration: none;
-        color: rgb(36, 43, 41);
+        color: rgb(33, 54, 54);
         text-align: center;
         background-color: rgb(131, 155, 147);
         padding: 5px;
@@ -41,6 +42,10 @@ body{
     a:hover {
         background-color: rgb(207, 224, 218);
     }
+    a.active {
+         background-color: rgb(207, 224, 218);
+    }
+    
 }
 
 .demoreel{
@@ -48,10 +53,72 @@ body{
     h1{
         font-size: 2em;
     }
-    iframe {
+    iframe{
         width:fit-content;
         height: auto;
         max-width: 1000px;
     }
 }
 
+footer{
+    background-color: rgb(33, 54, 54);
+    text-align: center;
+    text-justify: end;
+    width: fit-content;
+    color: rgb(207, 224, 218);
+    background-blend-mode: overlay;
+}
+
+.designs{
+    max-width: 1700px;
+    min-height: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-self: center;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    img{
+        height: 300px;
+        width: auto;
+    }
+}
+
+.personal{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    display: flex;
+    align-self: center;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    img{
+        height: 400px;
+        width: auto;
+    }
+}
+
+.reels{
+    max-width: 1600px;
+    margin-left: auto;
+    margin-right: auto;
+    min-height: 800px;
+    display: flex;
+    align-self: center;
+    align-content: space-evenly;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 10px;
+    row-gap: 20px;
+    img{
+        height: 400px;
+        width: auto;
+    }
+}

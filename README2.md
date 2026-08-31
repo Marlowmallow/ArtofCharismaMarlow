@@ -1,15 +1,14 @@
 #MyPersonalGoals
-Page layour and structure (Hero, bio, skills)
-Effective page styling with colors, fonts, and layouts, cohesive
+Page layout and structure (Hero, bio, skills)
+Effective page styling with colors, fonts, and layouts, cohesive ------ Done
 Deployed website
-Level up: Navigation menu with working links to sections
+Level up: Navigation menu with working links to sections ----- Done
 Integrated icon library
 
 
 Sections I want:
-Home
+Home --------Done
 About
-Character Design
+Character Design ------ Done
 Animations
-Personal Work
-Contacts
+Personal Work ------ Done

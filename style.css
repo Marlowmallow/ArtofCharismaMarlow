@@ -1,0 +1,57 @@
+/* Add you CSS here */
+body{
+    background-color:rgb(90, 117, 108);
+    font-size: 16px;
+}
+
+#Header{
+    font-family:'Courier New', Courier, monospace;
+    font-size: 2.5em;
+    border-style: none;
+    border-left-width: 2px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.topnav{
+    font-size: 2em;
+    text-align: center;
+    border-style: solid;
+    border-left-style: none;
+    border-right-style: none;
+    border-width: 3px;
+    border-left-width: 2px;
+    margin: 10px;
+    padding: 10px;
+    font-weight: 100;
+    line-height: 1.8;
+    a:link {
+        text-decoration: none;
+        color: rgb(36, 43, 41);
+        text-align: center;
+        background-color: rgb(131, 155, 147);
+        padding: 5px;
+        border-radius: 10px;
+        border-spacing: 10px;
+    }
+    a:visited {
+        color: rgb(43, 49, 48);
+    }
+    a:hover {
+        background-color: rgb(207, 224, 218);
+    }
+}
+
+.demoreel{
+    text-align: center;
+    h1{
+        font-size: 2em;
+    }
+    iframe {
+        width:fit-content;
+        height: auto;
+        max-width: 1000px;
+    }
+}
+

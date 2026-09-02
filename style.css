@@ -59,8 +59,8 @@ body{
         margin-right: 600px;
     }
     iframe{
-        width:fit-content;
-        height: auto;
+        width:896px;
+        height: 504px;
         max-width: 1280px;
     }
 }
@@ -129,10 +129,15 @@ footer p {
     justify-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    video,iframe{
-        width: 700px;
-        height: auto;
+    iframe{
+        width: 704px;
+        height: 396px;
         align-content: space-evenly;
+    }
+    img{
+      align-content: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     #highlight{
         font-weight: 200;

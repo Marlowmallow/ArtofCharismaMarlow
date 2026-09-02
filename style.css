@@ -55,8 +55,8 @@ body{
         background-color: rgb(131, 155, 147);
         border: solid 5px rgb(131, 155, 147);
         border-radius: 10px;
-        margin-left: 600px;
-        margin-right: 600px;
+        margin-left: 500px;
+        margin-right: 500px;
     }
     iframe{
         width:896px;
@@ -178,24 +178,33 @@ footer p {
         margin: 20px;
     }
     .contact{
-        align-content: center;
+        text-align: center;
+        border-top: dashed rgb(76, 89, 89);
         h2{
-            text-align: center;
             border: none;
             width: 100%;
         }
         p{
             border: none;
             width: 100%;
-            align-content: center;
+            justify-content: center;
             text-align: center;
             display: inline;
+            line-height: 1.5;
         }
     }
     .skills{
-        border: none;
-        margin-left: 200px;
-        margin-right: 200px;
+        border-top: dashed rgb(76, 89, 89);
+        H3{
+          margin-left: 200px;
+          margin-right: 200px;
+        }
+        ul{
+          display: flex;
+          flex-wrap: wrap;
+          margin-left: 200px;
+          margin-right: 200px;
+        }
 
         li{
             line-height: 2.0;
@@ -204,7 +213,6 @@ footer p {
             border-radius: 2px;
             margin: 10px;
             padding: 10px;
-            margin-right: 800px;
 
         }
     }
